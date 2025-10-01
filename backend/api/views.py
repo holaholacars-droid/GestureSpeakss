@@ -5,7 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.views import View
 import json
-
+import jsons
 # List all users
 def list_users(request):
     users = User.objects.all()
